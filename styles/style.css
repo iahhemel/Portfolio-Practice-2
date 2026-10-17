@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -22,6 +25,18 @@ nav{
     font-size: 22px;
     color: white;
     border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    
 }
 .logo{
     font-weight: bold;
@@ -47,6 +62,22 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: auto;
+    
+}
+.hero-left-p1{
+    font-weight: 600;
+  font-stretch: 100%;
+  font-display: block;
+}
+.hero-left h2{
+    font-weight:700 px ;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+.hero-parent-root{
+    background-color: #fff8f3;
+    
 }
